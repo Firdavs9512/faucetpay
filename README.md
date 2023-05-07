@@ -83,10 +83,10 @@ $result = $faucetpay->send($address, $amount, 'ETH');
 
 #### List of Recent Transactions
 
-You can get a list of your recent transactions by calling the `transactions` method:
+You can get a list of your recent transactions by calling the `recent` method:
 
 ```php
-$transactions = $faucetpay->transactions();
+$transactions = $faucetpay->recent($count = 10, $cripto = '');
 ```
 
 ### Credits
