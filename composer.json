@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Firdavs\\Faucet\\FaucetPackageServiceProvider"
+                "Firdavs\\Faucetpay\\FaucetPackageServiceProvider"
             ]
         }
     },
