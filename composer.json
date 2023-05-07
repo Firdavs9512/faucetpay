@@ -1,0 +1,27 @@
+{
+    "name": "firdavs/faucetpay",
+    "description": "Fuacetpay payment api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Firdavs\\Faucetpay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Firdavs",
+            "email": "firdavsreadmi8@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Firdavs\\Faucet\\FaucetPackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "version": "1.0",
+    "require": {}
+}
