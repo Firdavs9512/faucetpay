@@ -4,7 +4,7 @@ namespace Firdavs\Faucetpay;
 
 use Illuminate\Support\ServiceProvider;
 
-class BlogPackageServiceProvider extends ServiceProvider
+class FaucetPackageServiceProvider extends ServiceProvider
 {
     public function register()
     {
