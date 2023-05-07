@@ -7,5 +7,5 @@ return [
     'faucet_api_key' = env('FAUCET_API_KEY','test'),
 
     // Default crypto
-    'crypto' = 'BTC',
+    'crypto' = 'BTC'
 ];
