@@ -1,6 +1,6 @@
 <?php
 
-namespace Firdavs\Faucet;
+namespace Firdavs\Faucetpay;
 
 use Illuminate\Support\ServiceProvider;
 
